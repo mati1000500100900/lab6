@@ -1,20 +1,22 @@
-'use strict';
+"use strict";
 
-var city = document.getElementById('city'),
+var city = document.getElementById('city'), 
     cityName = document.createElement('h1'),
     icon = document.getElementById('icon'),
     info = document.getElementById('info'),
+    overlay = document.getElementById('overlay'),
     apiKey = '5cedcd4eb2d49d32393711e8b54d9611',
     iconUrl = 'https://openweathermap.org/img/w/',
     options = {
-        enableHighAccurancy: false,
+        enableHighAccuracy: false,
         timeout: 5000,
         maximumAge: 0
     };
 
+
 function getLocation() {
     if(navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(successFunction, eroor, options);
+        navigator.geolocation.getCurrentPosition(successFunction, error, options);
     } else {
         return;
     }
