@@ -1,11 +1,90 @@
 <html>
 <head>
-<title>galeria</title/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>galeria</title>
 <meta charset="utf-8">
-
 </head>
 <body>
-<h1>Galeria</h1>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Galeria</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Strona główna</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+<br><br><br>
+<div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab2.jpg" alt="lab2">
+          <div class="caption">
+            <h3>Lab 2</h3>
+          </div>
+        </div>
+      </div>
 
+       <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab3.jpg" alt="lab3">
+          <div class="caption">
+            <h3>Lab 3</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab4.jpg" alt="lab4">
+          <div class="caption">
+            <h3>Lab 4</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab5.jpg" alt="lab5">
+          <div class="caption">
+            <h3>Lab 5</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab6.jpg" alt="lab6">
+          <div class="caption">
+            <h3>Lab 6</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-xs-6 col-md-4">
+        <div class="thumbnail">
+          <img src="assets/lab7.jpg" alt="lab7">
+          <div class="caption">
+            <h3>Lab 7</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootbox.min.js"></script>
+<script src="js/galeria.js"></script>
 </html>
