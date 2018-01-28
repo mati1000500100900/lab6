@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pogoda</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Pogoda</h1>
+    </header>
+    <section class="main">
+        <div class="city" id="city"></div>
+        <div class="icon">
+            <img src="" alt="Weather icon" id="icon"/>
+        </div>
+        <div class="info" id="info"></div>
+    </section>
+
+    <div id="overlay_menu" class="overlay_menu">
+        <div class="overlay__content">
+            <select class="overlay__content-select" id="overlay__content-select">
+                <option value="lokalizacja">Lokalizacja</option>
+                <option value="miasto">Nazwa miasta</option>
+            </select>
+            <input type="text" id="cityName" class="overlay__content-input" placeholder="Nazwa miasta.." />
+            <button class="overlay__content-btn" id="closebtn">Save Changes</button>
+        </div>
+    </div>
+    <script src="js/pogoda.js"></script>
+</body>
+</html>
