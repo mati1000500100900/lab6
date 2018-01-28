@@ -1,6 +1,6 @@
-#lab6
+# lab6
 
-##twórcy
+## twórcy
 Wiktor Kawałek
 Marcin Siuda
 Wojciech Tanan
